@@ -1,0 +1,616 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 280px to 319px
+*/
+
+@media (min-width: 280px) and (max-width: 319px) {
+  
+    /* CSS */
+    .main-menu img{
+      width: 80px;
+      height: auto;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+      font-size: 13px;
+      line-height: 23px;
+    }
+    .who-we-are {
+      width: 100%;
+      padding: 20px 0px;
+    }
+    .who-we-are .title h2 {
+      font-size: 24px;
+      line-height: 44px;
+    } 
+    .we-do{
+      padding: 40px 0px;
+    } 
+    .we-do .title {
+      padding: 0px 0px 20px;
+    }
+    .we-do .title h2 {
+      font-size: 24px;
+      line-height: 44px;
+    }
+    .we-do .card {
+      margin-bottom: 15px;
+    }
+    .inner-info {
+      top: 20%;
+      left: 0%;
+    }
+    .inner-info h4 {
+      font-size: 18px;
+      line-height: 150px;
+    }
+    .inner-info .fa {
+      font-size: 25px;
+    }    
+    .inner-info-1 h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .inner-info-1 .fa {
+      font-size: 25px;
+      margin-top: 80px;
+    }
+    .inner-info-2 h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .inner-info-2 .fa {
+      font-size: 25px;
+      margin-top: 80px;
+    }
+    .our-attorney{
+      padding: 40px 0px;
+    } 
+    .our-attorney .title {
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+    .our-attorney .title h2 {
+      font-size: 24px;
+      line-height: 44px;
+    }
+    .our-attorney .title a {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .our-attorney .inner-info {
+      top: 75%;
+      left: 25px;
+    }
+    .our-attorney .inner-info h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .language-section {
+      width: 100%;
+      padding: 40px 0px;
+    }
+    .language-section .title {
+      padding: 0px 0px 20px;
+    }
+    .language-section .title h2 {
+      font-size: 24px;
+      line-height: 44px;
+    }
+    .language-section .lan-info{
+      border: 1px solid #eee;
+      margin: 15px 0px;
+    }
+    .language-section .lan-info h3 {
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+      margin-left: 8px;
+    }
+    .language-section .lan-info a {
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 8px;
+    }
+    .contact-us{
+      width: 100%;
+      padding: 40px 0px;
+    }
+    .contact-us .title {
+      padding: 35px 0px;
+    }
+    .contact-us .title h2 {
+      font-size: 24px;
+      line-height: 44px;
+    }
+    .contact-us .form .form-control {
+      text-align: left;
+      color: #fff;
+      background: transparent;
+      margin-left: 0%;
+      width: 280px;
+  }
+    .footer-Section {
+      padding: 20px 0px;
+    }
+    .footer-Section p {
+      font-size: 13px;
+    }
+    .footer-Section .social-icon .fa {
+      font-size: 14px;
+    }      
+  }
+   
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .main-menu img{
+    width: 100px;
+    height: auto;
+  }
+  .main-menu .navbar-light .navbar-nav .nav-link{
+    font-size: 13px;
+    line-height: 23px;
+ 
+  }
+  .who-we-are {
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .who-we-are .title h2 {
+    font-size: 24px;
+    line-height: 44px;
+  } 
+  .we-do{
+    padding: 40px 0px;
+  } 
+  .we-do .title {
+    padding: 0px 0px 20px;
+  }
+  .we-do .title h2 {
+    font-size: 24px;
+    line-height: 44px;
+  }
+  .we-do .card {
+    margin-bottom: 15px;
+  }
+  .inner-info {
+    top: 30%;
+    left: 0%;
+  }
+  .inner-info h4 {
+    font-size: 18px;
+    line-height: 150px;
+  }
+  .inner-info .fa {
+    font-size: 25px;
+  }    
+  .inner-info-1 h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .inner-info-1 .fa {
+    font-size: 25px;
+    margin-top: 90px;
+  }
+  .inner-info-2 h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .inner-info-2 .fa {
+    font-size: 25px;
+    margin-top: 90px;
+  }
+  .our-attorney{
+    padding: 40px 0px;
+  } 
+  .our-attorney .title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .our-attorney .title h2 {
+    font-size: 24px;
+    line-height: 44px;
+  }
+  .our-attorney .title a {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .our-attorney .inner-info {
+    top: 75%;
+    left: 25px;
+  }
+  .our-attorney .inner-info h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .language-section {
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .language-section .title {
+    padding: 0px 0px 20px;
+  }
+  .language-section .title h2 {
+    font-size: 24px;
+    line-height: 44px;
+  }
+  .language-section .lan-info{
+    border: 1px solid #eee;
+    margin: 15px 0px;
+  }
+  .language-section .lan-info h3 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 8px;
+  }
+  .language-section .lan-info a {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 8px;
+  }
+  .contact-us{
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .contact-us .title {
+    padding: 35px 0px;
+  }
+  .contact-us .title h2 {
+    font-size: 24px;
+    line-height: 44px;
+  }
+  .footer-Section {
+    padding: 20px 0px;
+  }
+  .footer-Section p {
+    font-size: 14px;
+  }
+  .footer-Section .social-icon .fa {
+    font-size: 16px;
+  }
+  .contact-us .form .form-control {
+    text-align: left;
+    color: #fff;
+    background: transparent;
+    margin-left: 0%;
+    width: 280px;
+}
+  
+} 
+  
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .main-menu img{
+      width: 120px;
+      height: auto;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+      font-size: 15px;
+      line-height: 25px;
+    }
+    .who-we-are {
+      width: 100%;
+      padding: 60px 0px;
+    }
+    .who-we-are .title h2 {
+      font-size: 36px;
+      line-height: 46px;
+    } 
+    .we-do{
+      padding: 0px 0px;
+    } 
+    .we-do .title {
+      padding: 20px 0px;
+    }
+    .we-do .title h2 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .we-do .card {
+      margin-bottom: 25px;
+    }
+    .inner-info {
+      top: 45%;
+      left: 0%;
+    }
+    .inner-info h4 {
+      font-size: 18px;
+      line-height: 150px;
+    }
+    .inner-info .fa {
+      font-size: 25px;
+    } 
+    .inner-info {
+      top: 55%;
+      left: 0%;
+    }   
+    .inner-info-1 h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .inner-info-1 .fa {
+      font-size: 25px;
+      margin-top: 90px;
+    }
+    .inner-info-2 h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .inner-info-2 .fa {
+      font-size: 25px;
+      margin-top: 90px;
+    }
+    .our-attorney{
+      padding: 40px 0px;
+    } 
+    .title {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .our-attorney .title {
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+    .our-attorney .title h2 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .our-attorney .title a {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .our-attorney .inner-info {
+      top: 75%;
+      left: 25px;
+    }
+    .our-attorney .inner-info h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .language-section {
+      width: 100%;
+      padding: 40px 0px;
+    }
+    .language-section .title {
+      padding: 30px 0px 20px;
+    }
+    .language-section .title h2 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .language-section .lan-info h3 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+      margin-left: 8px;
+    }
+    .language-section .lan-info a {
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 8px;
+    }
+    .contact-us{
+      width: 100%;
+      padding: 40px 0px;
+    }
+    .contact-us .title {
+      padding: 35px 0px;
+    }
+    .contact-us .title h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .contact-us .form .btn-primary {
+      padding: 8px 45px;
+    }  
+    .footer-Section{
+      padding: 20px 0px;
+    }
+    .footer-Section p{
+      font-size: 14px;
+    }
+    .footer-Section .social-icon .fa{
+      font-size: 16px;
+    }
+    
+  }
+  
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .main-menu img{
+      width: 120px;
+      height: auto;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+      font-size: 15px;
+      line-height: 25px;
+    }
+    .who-we-are {
+      width: 100%;
+      padding: 60px 0px;
+    }
+    .who-we-are .title h2 {
+      font-size: 36px;
+      line-height: 46px;
+    } 
+    .we-do{
+      padding: 0px 0px;
+    } 
+    .we-do .title {
+      padding: 20px 0px;
+    }
+    .we-do .title h2 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .we-do .card {
+      margin-bottom: 25px;
+    }
+    .inner-info {
+      top: 45%;
+      left: 0%;
+    }
+    .inner-info h4 {
+      font-size: 18px;
+      line-height: 150px;
+    }
+    .inner-info .fa {
+      font-size: 25px;
+    } 
+    .inner-info {
+      top: 55%;
+      left: 0%;
+    }   
+    .inner-info-1 h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .inner-info-1 .fa {
+      font-size: 25px;
+      margin-top: 90px;
+    }
+    .inner-info-2 h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .inner-info-2 .fa {
+      font-size: 25px;
+      margin-top: 90px;
+    }
+    .our-attorney{
+      padding: 40px 0px;
+    } 
+    .title {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .our-attorney .title {
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+    .our-attorney .title h2 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .our-attorney .title a {
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .our-attorney .inner-info {
+      top: 75%;
+      left: 25px;
+    }
+    .our-attorney .inner-info h4 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .language-section {
+      width: 100%;
+      padding: 40px 0px;
+    }
+    .language-section .title {
+      padding: 30px 0px 20px;
+    }
+    .language-section .title h2 {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .language-section .lan-info h3 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+      margin-left: 8px;
+    }
+    .language-section .lan-info a {
+      font-size: 14px;
+      line-height: 24px;
+      margin-left: 8px;
+    }
+    .contact-us{
+      width: 100%;
+      padding: 40px 0px;
+    }
+    .contact-us .title {
+      padding: 35px 0px;
+    }
+    .contact-us .title h2{
+      font-size: 36px;
+      line-height: 46px;
+    }
+    .contact-us .form .btn-primary {
+      padding: 8px 45px;
+    }  
+    .footer-Section{
+      padding: 20px 0px;
+    }
+    .footer-Section p{
+      font-size: 14px;
+    }
+    .footer-Section .social-icon .fa{
+      font-size: 16px;
+    }
+    .contact-us .form .form-control {
+      text-align: left;
+      color: #fff;
+      background: transparent;
+      margin-left: 10%;
+      width: 350px;
+  }
+    
+  }
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  
+  
+  /* 
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+  */

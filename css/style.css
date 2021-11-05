@@ -1,0 +1,401 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+} 
+a, a:hover{
+    text-decoration: none;
+}            
+/* section header start */
+
+.header{   
+    width: 100%;  
+}
+.main-menu{
+    width: 100%;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu img{
+    width: 150px;
+    height: auto;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+    color: #000ca0;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+    margin: 0px 0px 0px 8px;
+    text-transform: capitalize;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: 1s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+    background-size: auto;
+    color: #ff3e0c;
+}
+.navbar-light .navbar-nav .nav-link .active{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000ca0;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link .active:hover{
+    color: #ff3e0c;
+}
+.navbar-light .navbar-toggler {
+    color: #000ca0;
+    border-color: #ff3e0c;
+}
+.slider-section{
+    width: 100%;
+}
+.slider-section .carousel-caption{
+    bottom: 30%;
+}
+.slider-section .carousel-caption h1{
+    width: 100%;
+    font-size: 54px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.slider-section .carousel-caption .fa{
+    bottom: -100px;
+    position: absolute;
+    font-size: 35px;
+}
+.who-we-are{
+    width: 100%;
+    padding: 80px 0px;
+}
+.title{
+    width: 100%;
+}
+.who-we-are .title{
+    margin-top: 40px;
+}
+.who-we-are .title h2{
+    width: 100%;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000ca0;
+    margin: 0px 0px 20px;
+}
+.who-we-are .title p{
+    width: 100%;
+    font-size: 13px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #adbbbd;
+}
+.who-we-are .inner-img{
+    width: 100%;
+    text-align: center;
+}
+.we-do{
+    width: 100%;
+    padding: 80px 0px;
+    background: #eee;
+    background: url("../images/bg.png") bottom center no-repeat;
+    background-size: cover;
+}
+.we-do .card{
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0rem;
+}
+.we-do .title{
+    width: 100%;
+    text-align: center;
+    padding: 70px 0px;
+}
+.we-do .title h2{
+    width: 100%;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000ca0;
+    margin: 0px 0px 20px;
+}
+.we-do .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.inner-info{
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    left: 0%;
+}
+.inner-info h4{
+    font-size: 22px;
+    line-height: 150px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.inner-info .fa{
+    color: #fff;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 300;
+}
+.inner-info .fa:hover{
+    color: #ff3e0c;
+}
+.inner-info-1 .fa:hover{
+    color: #ff3e0c;
+}
+.inner-info-2 .fa:hover{
+    color: #ff3e0c;
+}
+.inner-info-1{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+.inner-info-1 h4{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.inner-info-1 .fa{
+    color: #fff;
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 300;
+}
+.inner-info-2{
+    width: 100%;
+    position: absolute;
+    top: 42%;
+    left: 0%;
+}
+.inner-info-2 h4{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.inner-info-2 .fa{
+    color: #fff;
+    margin-top: 93px;
+    font-size: 35px;
+    font-weight: 300;
+}
+.our-attorney{
+    width: 100%;
+    padding: 80px 0px;
+    background: #eee;
+    background: url("../images/bg-2.png") bottom center no-repeat;
+    background-size: cover;
+}
+.our-attorney .title{
+    margin-top: 40px;
+}
+.our-attorney .title h2{
+    width: 100%;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px 20px;
+}
+.our-attorney .title p{
+    width: 100%;
+    font-size: 13px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #91a4ee;
+}
+.our-attorney .title a{
+    width: 100%;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ff3e0c;
+    transition: 1s;
+}
+.our-attorney .title a:hover{
+    color: #fff;
+}
+.our-attorney .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+.our-attorney .inner-info{
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    left: 35px;
+}
+.our-attorney .inner-info h4{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.our-attorney .card{
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0rem;
+    margin-bottom: 25px;
+}
+.language-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.language-section .title{
+    width: 100%;
+    text-align: center;
+    padding: 70px 0px;
+}
+.language-section .title h2{
+    width: 100%;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000ca0;
+    margin: 0px 0px 20px;
+}
+.language-section .lan-info{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.language-section .lan-info h3{
+    width: 100%;
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000ca0;
+}
+.language-section .lan-info p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #91a4ee;
+}
+.language-section .lan-info a{
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ff3e0c;
+    transition: 1s;
+}
+.language-section .lan-info a:hover{
+    color: #000ca0;
+}
+.contact-us{
+    width: 100%;
+    padding: 80px 0px;
+    background: #000ca0;
+}
+.contact-us .title{
+    width: 100%;
+    text-align: center;
+    padding: 70px 0px;
+}
+.contact-us .title h2{
+    width: 100%;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px 20px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 0px solid #ced4da;
+    border-bottom: 0.5px solid #2d3fda;
+}
+.contact-us .form .form-control{
+    text-align: left;
+    color: #fff;
+    background: transparent;
+    margin-left: 30%;
+    width: 500px;
+}
+.contact-us .form .btn-primary {
+    color: #fff;
+    background-color: #ff3e0c;
+    border-color: #007bff;
+    padding: 8px 55px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 1s;
+    margin-left: 61%;
+}
+.contact-us .form .btn-primary:hover{
+    color: #ff3e0c;
+    background: #000ca0;
+}
+.footer-Section{
+    width: 100%;
+    padding: 40px 0px;
+    background: #02072e;
+    text-align: center;
+}
+.footer-Section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4c5fd0;
+    margin-top: 25px;
+}
+.footer-Section .social-icon .fa{
+    font-size: 18px;
+    color: #b5c0f3;
+    margin-bottom: 20px;
+    margin: 10px 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer-Section .social-icon .fa:hover{
+    color: #008ed6;
+}
+.footer-Section .social-icon .fa-youtube:hover{
+    color: #ff3e0c;
+}
+.footer-Section p{
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+/* section header end */
